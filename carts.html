@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carts</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <!--Navigation Bar-->
+    <div class="topnav">
+        <a href="home.html">Home</a>
+        <a href="carts.html">Carts</a>
+        <!--<a href="map.html">Map</a>-->
+    </div>
+    
+    <div>
+        <h1>Add New Cart</h1>
+        <form id="addCartForm">
+            <!--Text Input for Cart ID-->
+            <label for="cartId">Cart ID:</label>
+            <input type="text" id="cartId"></input>
+            
+            <!--Dropdown for Location-->
+            <label for="location">Location:</label>
+            <select id="location">
+            </select>
+
+            <!--Dropdown for Hall Section-->
+            <label id="hallSectionLabel" for="hallSection">Hall Section:</label>
+            <select id="hallSection">
+            </select>           
+
+            <!--Dropdown for Status-->
+                <!--Three statuses to choose from.-->
+            <label for="status">Status:</label>
+            <select id="status">
+                <option value="full">Full</option>
+                <option value="limited">Limited</option>
+                <option value="empty">Empty</option>
+            </select>
+      
+            <button id="submit" type="button">Add Cart</button>
+        </form>
+
+        <!--Table of Available Carts-->
+        <h2>Available Carts</h2>
+        <table id="cartTable">
+          <thead>
+            <tr>
+              <th>Cart ID</th>
+              <th>Location</th>
+              <th>Last Updated</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- Cart entries will go here -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  
+  <div id="image-container">
+      <img src="./resources/hospital.png" alt="hospital layout" id="hospital-map"> 
+  </div>
+
+    <div>
+      <canvas id = "testerCol"> hello </canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+

@@ -1,0 +1,121 @@
+
+html {
+    height: 100%;
+    width: 100%;
+  }
+
+body {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: lightgrey;
+    color: black;
+}
+
+p {
+  /*make the text of paragraph further away from the left and right borders of the screen*/
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around; /* Evenly spaces the items */
+    align-items: center; /* Centers the items vertically */
+  }
+
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 32px;
+    margin: 15px;
+    text-decoration: none;
+    font-size: 34px;
+    background-color: #333;
+    color: white;
+    display: inline-block;
+    width: 200px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: maroon;
+    color: white;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  
+table {
+    width: 100%;
+    /*border-collapse: collapse;*/
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 2px solid black;
+  }
+
+  /* center the image */
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .dot {
+    position: relative;
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border-radius: 50%;
+    border: 2px solid white;
+}
+
+
+#status {
+    height: 25px;
+    width: 100px;
+    font-size: 15px;
+    margin: 2   5px;
+}
+
+#location {
+    height: 25px;
+    width: 100px;
+    font-size: 15px; 
+    margin: 0px 25px;  
+}
+
+button {
+    height: 25px;
+    width: 100px;
+    font-size: 15px; 
+    margin: 15px; 
+}
+
+#hallSection {
+    height: 25px;
+    width: 150px;
+    font-size: 15px; 
+    position: absolute;
+    top: 33.5%;
+    left: 24.2%;
+}
+
+#hallSectionLabel {
+    position: absolute;
+    top: 33%;
+    left: 15.1%;
+}
+
