@@ -3,6 +3,7 @@ Web App made for HackGT11
 
 
 ## Inspiration
+I was inspired by a problem solved by a medical doctor in a medical TV show I watched previously in the past. The problem was a lack of supplies in crash carts, leading to higher patient deaths due to the unnecessary time required to find carts with the correct medicine in them. While watching, I felt another way to reduce patient error was to know in advance whether the cart was full and where it was in the hospital.
 
 ## What it does
 Track hospital crash carts by ID, location, section, and status.
